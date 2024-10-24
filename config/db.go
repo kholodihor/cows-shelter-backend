@@ -9,7 +9,7 @@ import (
 var DB *gorm.DB
 
 func  Connect(){
-	db, err := gorm.Open(postgres.Open("postgresql://cows_shelter_user:FWlBjtlI3LHnnxHDlTFBGMz4QornIlXv@dpg-csctuadumphs7399b6q0-a.frankfurt-postgres.render.com/cows_shelter"))
+	db, err := gorm.Open(postgres.Open("postgresql://cows_shelter_xoit_user:lGqBu3AMCxKFQfK5YCuaPrE4OCv23cDL@dpg-csd0tglumphs739b9i8g-a.frankfurt-postgres.render.com/cows_shelter_xoit"))
 
 	if err != nil {
 		panic(err)
